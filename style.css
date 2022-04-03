@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+#hero {
+	padding-top: 7em;
+}
+
+.hero-left {
+    height: 500px;
+}
+
+.hero-left img {
+    width: 30em;
+}
+
+.hero-right {
+    padding-top: 35px;
+}
+
+.hero-right h2 {
+    font-weight: 600;
+}
+
+.unggul-item {
+    height: 200px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unggul-item:nth-child(1){
+    flex-direction: column;
+}
+
+.unggul-item:nth-child(1) img{
+    width: 100px;
+}
+
+.mitra-item {
+    border: 1px solid black;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mitra-item img{
+    width: 100px;
+}
+
+.fa-copyright {
+    margin-right: 3px;
+    margin-top: 3px;
+}
